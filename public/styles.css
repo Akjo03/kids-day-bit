@@ -31987,14 +31987,17 @@ h1 {
 .content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .row {
   margin: 1rem;
   display: flex;
   flex-direction: row;
-  padding-bottom: 1rem;
+  justify-content: center;
 }
 
 .row-div {
@@ -32044,6 +32047,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 1rem;
 }
 
 .row-image {
@@ -32051,6 +32055,7 @@ h1 {
   height: auto;
   width: 12rem;
   flex-direction: column;
+  justify-content: center;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-bottom: 1rem;
@@ -32060,15 +32065,13 @@ h1 {
   margin: 1rem;
   display: flex;
   height: auto;
-  width: 50%;
+  width: 25%;
   flex-direction: column;
 }
 
 .row-graph {
   margin: 1rem;
   display: flex;
-  height: auto;
-  width: 4rem;
   flex-direction: column;
 }
 

@@ -40,11 +40,11 @@ h1 {
 }
 
 .content {
-    @apply flex flex-col gap-2;
+    @apply flex flex-col gap-2 px-32 justify-center;
 }
 
 .row {
-    @apply flex flex-row m-4 pb-4;
+    @apply flex flex-row m-4 justify-center;
 }
 
 .row-div {
@@ -64,17 +64,17 @@ h1 {
 }
 
 .row-image-div {
-    @apply flex flex-col justify-center;
+    @apply flex flex-col justify-center pt-4;
 }
 
 .row-image {
-    @apply flex flex-col px-2 pb-4 w-48 h-auto;
+    @apply flex flex-col px-2 pb-4 justify-center w-48  h-auto;
 }
 
 .row-graph-div {
-    @apply flex flex-col w-1/2 h-auto m-4;
+    @apply flex flex-col w-1/4 h-auto m-4;
 }
 
 .row-graph {
-    @apply flex flex-col m-4 w-16 h-auto;
+    @apply flex flex-col m-4;
 }
