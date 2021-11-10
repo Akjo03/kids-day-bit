@@ -75,38 +75,44 @@ h1 {
 /* Hier kannst du zum Beispiel die Grösse oder die Farbe der Überschrift 
    in jedem Abschnitt ändern */
 .row-heading {
-    @apply flex flex-col px-2 text-lg font-bold;
+    @apply flex flex-col px-2 text-xl font-bold;
 }
 
 /* Betrifft die Fliesstexte in jedem Abschnitt */
 /* Hier kannst du zum Beispiel die Grösse oder die Farbe jedes Fliesstextes 
    in jedem Abschnitt ändern */
 .row-text {
-    @apply flex flex-col px-2 pb-4 text-base font-medium;
+    @apply inline-flex px-2 pb-4 text-lg font-medium;
 }
 
 /* Betrifft die schrähgen Fliesstexte in jedem Abschnitt */
 /* Hier kannst du zum Beispiel die Grösse oder die Farbe jedes schrägen Fliesstextes
    in jedem Abschnitt ändern */
 .row-text-italic {
-    @apply flex flex-col px-2 pb-4 text-base font-medium italic;
+    @apply inline-flex px-2 pb-4 text-lg font-medium italic;
+}
+
+/* Betrifft die Links in jedem Abschnitt */
+/* Hier kannst du zum Beispiel die Farbe der Links in jedem Abschnitt ändern */
+.link {
+    @apply inline-flex text-lg ml-2 font-bold text-blue-500 hover:text-blue-700 visited:text-purple-600 cursor-pointer;
 }
 
 /* Hier solltest du am Besten nichts ändern. Experimentieren jedoch erlaubt :) */
 .row-image-div {
-    @apply flex flex-col justify-center pt-4;
+    @apply flex flex-row justify-center pt-4;
 }
 
 /* Betrifft jedes Bild in jedem Abschnitt */
 /* Hier kannst du zum Beispiel die Grösse des Bildes ändern */
 .row-image {
-    @apply flex flex-col px-2 pb-4 justify-center w-48  h-auto;
+    @apply flex flex-col px-2 pt-4 justify-center w-48  h-auto;
 }
 
 /* Betrifft die Statistik in jedem Abschnitt */
 /* Hier kannst du zum Beispiel die Grösse der Statistik ändern */
 .row-graph-div {
-    @apply flex flex-col w-1/4 h-auto m-4;
+    @apply flex flex-col xl:w-1/4 w-96 h-auto m-4;
 }
 
 /* Hier solltest du am Besten nichts ändern. Experimentieren jedoch erlaubt :) */
