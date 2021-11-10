@@ -1,0 +1,16 @@
+{
+  "name": "kids-day-bit",
+  "version": "1.0.0",
+  "description": "Website of the Kids Day BIT 2021",
+  "scripts": {
+    "start": "@echo off && cls && echo Bitte kurz warten :) && postcss .\\src\\styles.css -o .\\public\\styles.css && start .\\public\\index.html && cls"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}

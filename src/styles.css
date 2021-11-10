@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    @apply flex flex-col h-screen w-auto select-none;
+}
+
+.top {
+    @apply flex flex-row h-2/3 bg-gradient-to-r from-red-500 to-white flex-shrink-0;
+}
+
+.title-div {
+    @apply flex flex-col justify-center gap-4 lg:w-2/3 w-full m-4 text-white;
+}
+
+.title {
+    @apply flex flex-col text-center md:text-7xl text-5xl font-extrabold;
+}
+
+.subtitle {
+    @apply flex flex-col text-center md:text-5xl text-3xl font-bold pt-8;
+}
+
+.logo-div {
+    @apply lg:flex hidden flex-col justify-evenly w-1/3 m-4 pointer-events-none;
+}
+
+.logo {
+    @apply flex flex-col self-center w-64;
+}
+
+.content {
+    @apply flex flex-col gap-2;
+}
+
+.row {
+    @apply flex flex-row m-4 pb-4;
+}
+
+.row-div {
+    @apply flex flex-col w-1/2 h-auto m-4 py-2;
+}
+
+.row-heading {
+    @apply flex flex-col px-2 text-lg font-bold;
+}
+
+.row-text {
+    @apply flex flex-col px-2 pb-4 text-base font-medium;
+}
+
+.row-text-italic {
+    @apply flex flex-col px-2 pb-4 text-base font-medium italic;
+}
+
+.row-image-div {
+    @apply flex flex-col justify-center;
+}
+
+.row-image {
+    @apply flex flex-col px-2 pb-4 w-48 h-auto;
+}
+
+.row-graph-div {
+    @apply flex flex-col w-1/2 h-auto m-4;
+}
+
+.row-graph {
+    @apply flex flex-col m-4;
+}
