@@ -28,21 +28,8 @@ const coffee = new Chart(ctxCoffeee, {
     options: {
         scales: {
             y: {
-                beginAtZero: true,
-                gridLines: {
-                    display: false
-                 }
-            },
-            xAxes: [{
-               gridLines: {
-                  display: false
-               }
-            }],
-            yAxes: [{
-               gridLines: {
-                  display: false
-               }
-            }]
+                beginAtZero: true
+            }
          }
     },
 });
