@@ -11,70 +11,105 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Ab hier kannst du das Design der Website verändern */
+
+/* Betrifft die ganze Seite.*/
+/* Hier kannst du zum Beispiel die Hintergrundfarbe der ganzen Seite ändern. */
 .main {
     @apply flex flex-col h-screen w-auto select-none;
 }
 
+/* Betrifft der obere Teil der Seite. */
+/* Hier kannst du  zum Beispiel den Farbverlauf des oberen Teils ändern. */
+/* z.B. from-green-500 to-yellow-500 würde den Farbverlauf von Grün nach Gelb ändern */
 .top {
     @apply flex flex-row h-2/3 bg-gradient-to-r from-red-500 to-white flex-shrink-0;
 }
 
+/* Betrifft die Überschriften des oberen Teil der Seite */
+/* Hier kannst du zum Beispiel die Farbe aller Überschriften im oberen Teil ändern. */
 .title-div {
     @apply flex flex-col justify-center gap-4 lg:w-2/3 w-full m-4 text-white;
 }
 
+/* Betrifft nur die Hauptüberschrift ("Kids Day BIT - Das BIT in Zahlen") */
+/* Hier kannst du zum Beispiel die Grösse der Hauptüberschrift ändern. */
 .title {
     @apply flex flex-col text-center md:text-7xl text-5xl font-extrabold;
 }
 
+/* Betrifft nur die Unterüberschrift ("Seite von Justin") */
+/* Hier kannst du zum Beispiel die Grösse der Unterüberschrift ändern. */
 .subtitle {
     @apply flex flex-col text-center md:text-5xl text-3xl font-bold pt-8;
 }
 
+/* Hier solltest du am Besten nichts ändern. Experimentieren jedoch erlaubt :) */
 .logo-div {
     @apply lg:flex hidden flex-col justify-evenly w-1/3 m-4 pointer-events-none;
 }
 
+/* Betrifft das Logo im oberen Teil der Seite */
+/* Hier kannst du zum Beispiel die Grösse des Logos ändern */
 .logo {
     @apply flex flex-col self-center w-64;
 }
 
+/* Betrifft den ganzen unteren Teil der Seite */
+/* Hier kannst du zum Beispiel den Abstand zwischen den einzelnen Abschnitten ändern */
 .content {
     @apply flex flex-col gap-2 px-32 justify-center;
 }
 
+/* Hier solltest du am Besten nichts ändern. Experimentieren jedoch erlaubt :) */
 .row {
     @apply flex flex-row m-4 justify-center;
 }
 
+/* Hier solltest du am Besten nichts ändern. Experimentieren jedoch erlaubt :) */
 .row-div {
     @apply flex flex-col w-1/2 h-auto m-4 py-2;
 }
 
+/* Betrifft die Überschrift in jedem Abschnitt */
+/* Hier kannst du zum Beispiel die Grösse oder die Farbe der Überschrift 
+   in jedem Abschnitt ändern */
 .row-heading {
     @apply flex flex-col px-2 text-lg font-bold;
 }
 
+/* Betrifft die Fliesstexte in jedem Abschnitt */
+/* Hier kannst du zum Beispiel die Grösse oder die Farbe jedes Fliesstextes 
+   in jedem Abschnitt ändern */
 .row-text {
     @apply flex flex-col px-2 pb-4 text-base font-medium;
 }
 
+/* Betrifft die schrähgen Fliesstexte in jedem Abschnitt */
+/* Hier kannst du zum Beispiel die Grösse oder die Farbe jedes schrägen Fliesstextes
+   in jedem Abschnitt ändern */
 .row-text-italic {
     @apply flex flex-col px-2 pb-4 text-base font-medium italic;
 }
 
+/* Hier solltest du am Besten nichts ändern. Experimentieren jedoch erlaubt :) */
 .row-image-div {
     @apply flex flex-col justify-center pt-4;
 }
 
+/* Betrifft jedes Bild in jedem Abschnitt */
+/* Hier kannst du zum Beispiel die Grösse des Bildes ändern */
 .row-image {
     @apply flex flex-col px-2 pb-4 justify-center w-48  h-auto;
 }
 
+/* Betrifft die Statistik in jedem Abschnitt */
+/* Hier kannst du zum Beispiel die Grösse der Statistik ändern */
 .row-graph-div {
     @apply flex flex-col w-1/4 h-auto m-4;
 }
 
+/* Hier solltest du am Besten nichts ändern. Experimentieren jedoch erlaubt :) */
 .row-graph {
     @apply flex flex-col m-4;
 }
