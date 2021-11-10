@@ -76,5 +76,5 @@ h1 {
 }
 
 .row-graph {
-    @apply flex flex-col m-4;
+    @apply flex flex-col m-4 w-16 h-auto;
 }
