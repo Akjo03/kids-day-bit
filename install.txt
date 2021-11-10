@@ -1,0 +1,5 @@
+Set-ExecutionPolicy Unrestricted
+npm install
+npm install -g postcss@latest
+npm install -g postcss-cli@latest
+npm run start
