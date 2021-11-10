@@ -32067,6 +32067,8 @@ h1 {
 .row-graph {
   margin: 1rem;
   display: flex;
+  height: auto;
+  width: 4rem;
   flex-direction: column;
 }
 
